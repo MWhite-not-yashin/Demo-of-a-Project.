@@ -6,8 +6,5 @@ Painting
 Chest
 
 One leads to freedom, the rest are DEATH!
- ____________   ____       _
-|____    ____| |.   |.    / \
-    |.   |     |.   |_ __|  |
-    |.   |.    |   _.    |
-    |____|.    |__|   |__|
+
+Thank you.
