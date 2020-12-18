@@ -1,10 +1,14 @@
 import math
 import secrets
 s = secrets
+#This imports and defines so math and random numbers work.
 print("Welcome to the Dungeon!")
 name = input("Choose a Name: ")
+#This tells you the welcome to the dungeon and asks you to choose a name.
 perc = s.randbelow(100)
+#Perc is Perception, this determines your eyesight.
 health = 100
+#For some reason this is used exactly once.. as all deaths are one hit
 print(name + " is in a small dungeon room")
 if (perc == 100):
   print(name + " has perfect vision and sees a chest, a painting on the wall, and a small hole in the wall. Of course theres also the metal door.")
@@ -24,6 +28,7 @@ else:
           if(perc == 0):
             print(name + " is blind and trips on something on the floor, which slams his head against the metal door.")
             health = health - 100
+            #This determines what you can exactly see, if your blind you are very unlucky.
 if (health == 0):
   print(name + " has died in the dungeon!")
 else:
@@ -55,3 +60,4 @@ else:
         else:
           print("Due to either your lack of sight, refusal to go anywhere, or spelling mistakes, you did not go anywhere. A timer goes off which then fills the room with water.")
           print(name + " has died in the dungeon!")
+          #This is what you chose, most are death, one is escape.
